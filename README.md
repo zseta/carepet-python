@@ -188,6 +188,7 @@ looks like this:
 ```
 
 **Test `/api/owner/{owner_id}`**
+
 Paste the owner id from the terminal into the endpoint URL and open it with
 your browser or use `curl`, for example:
 ```bash
@@ -197,6 +198,7 @@ curl http://127.0.0.1:8000/api/owner/4f42fb80-c209-4d19-8c43-daf554f1be23
 ```
 
 **Test `/api/owner/{owner_id}/pets`**
+
 Use the same owner id value to test this endpoint, for example:
 ```bash
 curl http://127.0.0.1:8000/api/owner/4f42fb80-c209-4d19-8c43-daf554f1be23/pets
@@ -205,6 +207,7 @@ curl http://127.0.0.1:8000/api/owner/4f42fb80-c209-4d19-8c43-daf554f1be23/pets
 ```
 
 **Test `/api/pet/{pet_id}/sensors`**
+
 Finally, use a pet id to test this endpoint, for example:
 ```bash
 curl http://127.0.0.1:8000/api/pet/44f1624e-07c2-4971-85a5-85b9ad1ff142/sensors
@@ -213,7 +216,6 @@ curl http://127.0.0.1:8000/api/pet/44f1624e-07c2-4971-85a5-85b9ad1ff142/sensors
 ```
 
 ## Structure
-
 Package structure:
 
 | Name              | Purpose                                            |
