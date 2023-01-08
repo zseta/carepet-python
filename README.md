@@ -222,7 +222,7 @@ Package structure:
 | ----------------------------------------| -------------------------------------|
 | [/src/db](/src/db)                      | Database config and client folder    |
 | [/src/db/cql](/src/db/cql)              | CQL scripts                          |
-| [/src/db/client](/src/db/client)        | ScyllaDB client library              |
+| [/src/db/client](/src/db/client.py)      | ScyllaDB client library              |
 | [/src/server](/src/server)              | FastAPI application folder           |
 | [/src/server/app.py](/src/server/app.py)| FastAPI application                  |
 | [/src/api.py](/src/api.py )             | Script to start the API server       |
