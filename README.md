@@ -218,13 +218,13 @@ curl http://127.0.0.1:8000/api/pet/44f1624e-07c2-4971-85a5-85b9ad1ff142/sensors
 ## Structure
 Package structure:
 
-| Name              | Purpose                                            |
-| ----------------  | ---------------------------------------------------|
-| /src/db           | Database config and client folder                  |
-| /src/db/cql       | CQL scripts                                        |
-| /src/db/client    | ScyllaDB client library                            |
-| /src/server       | FastAPI application folder                         |
-| /src/server/app.py| FastAPI application                                |
-| /src/api.py       | Script to start the API server                     |
-| /src/migrate.py   | Schema creation                                    |
-| /src/sensor.py    | IoT data ingestion                                 |
+| Name                                    | Purpose                              |
+| ----------------------------------------| -------------------------------------|
+| [/src/db](/src/db)                      | Database config and client folder    |
+| [/src/db/cql](/src/db/cql)              | CQL scripts                          |
+| [/src/db/client](/src/db/client)        | ScyllaDB client library              |
+| [/src/server](/src/server)              | FastAPI application folder           |
+| [/src/server/app.py](/src/server/app.py)| FastAPI application                  |
+| [/src/api.py](/src/api.py )             | Script to start the API server       |
+| [/src/migrate.py](/src/migrate.py)      | Schema creation                      |
+| [/src/sensor.py](/src/sensor.py)        | IoT data ingestion                   |
