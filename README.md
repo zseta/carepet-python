@@ -122,7 +122,7 @@ from two sensors every other second and inserts the data in batches
 every ten seconds. Whenever you see `Pushing data` in the command line that is
 when data actually gets insterted into ScyllaDB.
 
-You can modify the frequency of the generated data by changing the
+Optional: You can modify the frequency of the generated data by changing the
 `--measure` and `--buffer-interval` arguments. For example,
 you can generate new data points every three seconds and insert the batches
 every 30 seconds:
